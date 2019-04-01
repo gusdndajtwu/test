@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <pre>
+    symbol 
+    
+    심벌의 생성
+    
+    var sym1 = Symbol();
+    var sym2 = Symbol();
+    sym1 == sym2 //false;
+    Symbol()은 호출할때마다 새로운 값 생성.
+    
+    var HART = Symbol("하트");
+    
+    </pre>
+</body>
+</html>
